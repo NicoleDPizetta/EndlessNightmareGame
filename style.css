@@ -63,11 +63,9 @@ body h1 {
 }
 
 .button {
-  padding: 0.7em 1.3em;
+  padding: 12px 32px;
   font-weight: 700;
   font-size: 1.25rem;
-  min-width: 8.23em;
-  line-height: 1;
   cursor: pointer;
   border: none;
 }
@@ -81,4 +79,29 @@ body h1 {
 #playNowButton {
   color: var(--black-color);
   background-color: var(--yellow-color);
+}
+
+/* ----------------------- MEDIA QUERY ----------------------- */
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  body p {
+    font-size: 1rem;
+  }
+
+  body h1 {
+    font-size: 3rem;
+  }
+
+  #buttonsDiv {
+    margin-top: 50px;
+    flex-direction: column;
+  }
 }
