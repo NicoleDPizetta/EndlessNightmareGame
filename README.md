@@ -31,34 +31,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 #### Desktop
 
-<figure>
-  <img src="./assets/Screenshots/Desktop.png" alt="Screenshot from 1920x1080 resolution" style="width:100%">
-  <figcaption>1920x1080 resolution</figcaption>
-</figure>
+![](./assets/Screenshots/Desktop.png)
 
-<figure>
-  <img src="./assets/Screenshots/Desktop2.png" alt="Screenshot from 1360x768 resolution" style="width:100%">
-  <figcaption>1360x768 resolution</figcaption>
-</figure>
+![](./assets/Screenshots/Desktop2.png)
 
 #### Mobile
 
-<figure>
-  <img src="./assets/Screenshots/Mobile1.png" alt="Screenshot from iPhone 12 PRO">
-  <figcaption>iPhone 12 PRO</figcaption>
-</figure>
-
-<figure>
-  <img src="./assets/Screenshots/Mobile2.png" alt="Screenshot from Galaxy Fold">
-  <figcaption>Galaxy Fold</figcaption>
-</figure>
+![](./assets/Screenshots/Mobile1.png) ![](./assets/Screenshots/Mobile2.png)
 
 #### Tablet
 
-<figure>
-  <img src="./assets/Screenshots/Tablet.png" alt="Screenshot from iPad PRO">
-  <figcaption>iPad PRO</figcaption>
-</figure>
+![](./assets/Screenshots/Tablet.png)
 
 ## 🚀 Recursos úteis
 
