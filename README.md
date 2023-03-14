@@ -1,7 +1,9 @@
 <h1 align="center"> 👻 Endless Nightmare Game - Landing page </h1>
 
 <p align="center">
-Evento exclusivo e gratuito chamado "Jornada do Zero à Primeira Vaga", promovido pela Rocketseat.<br/>
+O desafio é uma Landing Page de um jogo de terror fictício. <br/> 
+Esse evento exclusivo e gratuito, chamado "Jornada do Zero à Primeira Vaga", foi promovido pela Rocketseat.
+
 </p>
 
 <p align="center">
@@ -23,23 +25,40 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Preview site
 
-O desafio é a Landing Page de um jogo de terror fictício.
-
-- [Em Breve]()
+- [Clique aqui](https://nicoledpizetta.github.io/EndlessNightmareGame/)
 
 ## 🚀 Screenshots
 
 #### Desktop
 
-EM BREVE
-![]()
+<figure>
+  <img src="./assets/Screenshots/Desktop.png" alt="Screenshot from 1920x1080 resolution" style="width:100%">
+  <figcaption>1920x1080 resolution</figcaption>
+</figure>
 
-![]()
+<figure>
+  <img src="./assets/Screenshots/Desktop2.png" alt="Screenshot from 1360x768 resolution" style="width:100%">
+  <figcaption>1360x768 resolution</figcaption>
+</figure>
 
 #### Mobile
 
-EM BREVE
-![]() ![]()
+<figure>
+  <img src="./assets/Screenshots/Mobile1.png" alt="Screenshot from iPhone 12 PRO">
+  <figcaption>iPhone 12 PRO</figcaption>
+</figure>
+
+<figure>
+  <img src="./assets/Screenshots/Mobile2.png" alt="Screenshot from Galaxy Fold">
+  <figcaption>Galaxy Fold</figcaption>
+</figure>
+
+#### Tablet
+
+<figure>
+  <img src="./assets/Screenshots/Tablet.png" alt="Screenshot from iPad PRO">
+  <figcaption>iPad PRO</figcaption>
+</figure>
 
 ## 🚀 Recursos úteis
 

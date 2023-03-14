@@ -68,6 +68,7 @@ body h1 {
   font-size: 1.25rem;
   cursor: pointer;
   border: none;
+  transition: 0.5s;
 }
 
 #readMoreButton {
@@ -81,6 +82,15 @@ body h1 {
   background-color: var(--yellow-color);
 }
 
+/* ----------------------- BUTTON HOVER EFFECT ----------------------- */
+#playNowButton:hover,
+#readMoreButton:hover {
+  background-color: var(--black-color);
+  color: var(--yellow-color);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
 /* ----------------------- MEDIA QUERY ----------------------- */
 @media only screen and (max-width: 600px) {
   html,
@@ -89,7 +99,31 @@ body h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
+  }
+
+  body p {
+    font-size: 1.5rem;
+  }
+
+  body h1 {
+    font-size: 4rem;
+  }
+
+  #buttonsDiv {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  html,
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
   }
 
   body p {
@@ -103,5 +137,45 @@ body h1 {
   #buttonsDiv {
     margin-top: 50px;
     flex-direction: column;
+  }
+
+  .button {
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  html,
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  body p {
+    font-size: 1rem;
+  }
+
+  body h1 {
+    font-size: 2.3rem;
+  }
+
+  #description {
+    font-size: 1rem;
+  }
+
+  #buttonsDiv {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .button {
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 1rem;
   }
 }
