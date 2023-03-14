@@ -4,8 +4,81 @@
   box-sizing: border-box;
 }
 
+:root {
+  --yellow-color: #ffc700;
+  --black-color: #040101;
+  --white-color: #ffffff;
+  --white-faded-color: rgba(255, 255, 255, 0.7);
+}
+
+html,
 body {
   width: 100vw;
   height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url(./assets/background-image.png) center no-repeat;
+  background-size: cover;
+}
+
+/* ----------------------- TEXTS ----------------------- */
+body p {
+  font-family: "Inter", sans-serif;
+  margin: 4px;
+}
+
+body h1 {
+  font-family: "Emilys Candy", cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--yellow-color);
+}
+
+#gotyText {
+  font-weight: 700;
+  color: var(--white-color);
+}
+
+#gotyText span {
+  color: var(--yellow-color);
+}
+
+#description {
+  color: var(--white-faded-color);
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+/* ----------------------- BUTTONS ----------------------- */
+#buttonsDiv {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.button {
+  padding: 0.7em 1.3em;
+  font-weight: 700;
+  font-size: 1.25rem;
+  min-width: 8.23em;
+  line-height: 1;
+  cursor: pointer;
+  border: none;
+}
+
+#readMoreButton {
+  text-decoration-line: underline;
+  color: var(--white-faded-color);
+  background-color: transparent;
+}
+
+#playNowButton {
+  color: var(--black-color);
+  background-color: var(--yellow-color);
 }
